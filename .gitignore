@@ -1,0 +1,27 @@
+
+# ASP.NET Core / .NET
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+
+# Angular
+node_modules/
+dist/
+.angular/
+coverage/
+
+# Environment / Secrets
+.env
+.env.*
+!.env.example
+**/appsettings.Local.json
+**/appsettings.*.local.json
+
+# VS Code
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db
